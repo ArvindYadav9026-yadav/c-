@@ -1,0 +1,11 @@
+#include<iostream>
+#include<climits>
+using namespace std;
+int main(){
+    short x = INT16_MAX;
+    cout<<x<<endl;
+    // int y = 2147483649;
+    // cout<<y<<endl;
+    short y = INT16_MIN;
+    cout<<y<<endl;
+}
